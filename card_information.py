@@ -107,5 +107,5 @@ LoginButton=Sign+in&ctl00%24EmailTextBox=&ctl00%24C\
         print self.post_data
 
 if __name__ == '__main__':
-    ci = card_information('m.norkin@gmail.com', 'classic357')
+    ci = card_information('email', 'password')
     ci.login()
